@@ -19,7 +19,7 @@ $(document).ready(function () {
       )
       .prop("disabled", true);
     $.ajax({
-      url: "http://localhost:3000/submit-form",
+      url: "https://bishop-server.vercel.app/submit-form",
       type: "POST",
       data: JSON.stringify(formData),
       contentType: "application/json",
